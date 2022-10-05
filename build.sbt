@@ -1,8 +1,6 @@
 name := "pokemon-pages"
  
-version := "1.0"
-
-herokuAppName in Compile := "yellow-pokedex"
+version := "1.0" 
       
 lazy val `pokemon-pages` = (project in file(".")).enablePlugins(PlayScala)
 
